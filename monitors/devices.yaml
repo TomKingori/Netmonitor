@@ -1,0 +1,11 @@
+- ip_address: 192.168.43.0
+  name: Manjaro arch sandbox
+  os: linux
+  transport: napalm
+  hostname: sandbox-iosxe-recomm-1.manjaro.com
+  password: 12345pp
+  ssh_port: 22
+  username: developer
+  vendor: arch
+  sla_availability: 95
+  sla_response_time: 15

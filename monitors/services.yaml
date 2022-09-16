@@ -1,0 +1,51 @@
+- id: 1
+  name: HTTP google
+  type: https
+  target: https://www.google.com
+  sla_availability: 95
+  sla_response_time: 0.4
+
+- id: 5
+  name: DNS via google
+  type: dns
+  target: 8.8.8.8
+  data: www.google.com
+  sla_availability: 95
+  sla_response_time: 0.1
+
+- id: 8
+  name: DNS via google 2
+  type: dns
+  target: 8.8.4.4
+  data: www.google.com
+  sla_availability: 95
+  sla_response_time: 0.1
+
+- id: 6
+  name: DNS via OpenDNS
+  type: dns
+  target: 208.67.222.222
+  data: news.google.com
+  sla_availability: 95
+  sla_response_time: 0.1
+
+- id: 7
+  name: NTP us.pool.ntp.org
+  type: ntp
+  target: us.pool.ntp.org
+  sla_availability: 95
+  sla_response_time: 0.1
+
+- id: 10
+  name: ICMP gateway
+  type: icmp
+  target: 192.168.254.254
+  sla_availability: 99
+  sla_response_time: 1.0
+
+- id: 11
+  name: debian netmonitor
+  type: icmp
+  target: 192.168.0.34
+  sla_availability: 99
+  sla_response_time: 1.0
